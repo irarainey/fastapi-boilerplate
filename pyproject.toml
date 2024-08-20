@@ -1,0 +1,14 @@
+[tool.poetry]
+package-mode = false
+authors = ["Ira Rainey"]
+description = "A sample API using FastAPI"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.68.0"
+uvicorn = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
